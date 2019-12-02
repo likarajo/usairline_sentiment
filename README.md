@@ -28,7 +28,7 @@ import nltk
 nltk.download('stopwords')
 ```
 
-## Data Analysis
+# Data Analysis
 * Start Jupyter notebook *data_analysis.ipynb*
 * The 11th column (index 10) contains the tweet text.
 * The 2nd column (index 1) contains the sentiment of the tweet.
@@ -37,8 +37,13 @@ nltk.download('stopwords')
 * Distribution of sentiment for each individual airline: For all the airlines, the majority of the tweets are negative, followed by neutral and positive tweets.
 * Average confidence level for the tweets for each sentiment category: confidence level for negative tweets is higher compared to positive and neutral tweets.
 
-## Data Cleaning
+---
+
+# Model Creation
 * Start Jupyter notebook *data_cleaning.ipynb*
+
+## Data Cleaning
+
 * Divide the dataset into features and labels sets
     * features = text = 11th column (index 10)
     * labels = airline_sentiment = 2nd column (index 1)
